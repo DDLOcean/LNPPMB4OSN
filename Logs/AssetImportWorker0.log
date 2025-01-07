@@ -1,0 +1,601 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.18f1 (3699cf869f9b) revision 3578319'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32382 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Win11/Desktop/ml-agents/Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59220
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Win11/Desktop/ml-agents/Project
+C:/Users/Win11/Desktop/ml-agents/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16540]  Target information:
+
+Player connection [16540]  * "[IP] 172.29.102.17 [Port] 0 [Flags] 2 [Guid] 4155618575 [EditorId] 4155618575 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G650GGI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16540] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.18f1 (3699cf869f9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Win11/Desktop/ml-agents/Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002553 seconds.
+- Loaded All Assemblies, in  0.324 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 561ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (110ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (216ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.866 seconds
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1608ms
+	BeginReloadAssembly (468ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (69ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 294 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2620 unused Assets / (56.9 MB). Loaded Objects now: 2934.
+Memory consumption went from 217.3 MB to 160.3 MB.
+Total: 14.189500 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.117500 ms MarkObjects: 4.283600 ms  DeleteObjects: 9.540600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 352997.776726 seconds.
+  path: Assets/Terrain_0_0-20200119-153222.asset
+  artifactKey: Guid(b380f3a7c5c7f114199ae38f30148ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain_0_0-20200119-153222.asset using Guid(b380f3a7c5c7f114199ae38f30148ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'aac179d2d094984e0f973b8f6eb15e00') in 0.2556622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrain_0_0-20200120-102222.asset
+  artifactKey: Guid(fce53bef37b3094468c70dff52a75f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain_0_0-20200120-102222.asset using Guid(fce53bef37b3094468c70dff52a75f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0e6125da3db9ca491f53c6095421539c') in 0.1510669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(7ea9839687023c746a19eea44295331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(7ea9839687023c746a19eea44295331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd199d0237791ea3eb4f798ec3474eb45') in 0.0080709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain_0_0-20200119-155223.asset
+  artifactKey: Guid(02e4df6fac6eb964c8a44a103d6d9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain_0_0-20200119-155223.asset using Guid(02e4df6fac6eb964c8a44a103d6d9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7b8bd4cffa149f36d7c51d19189c3251') in 0.1917167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OceanScene Variant.prefab
+  artifactKey: Guid(b34ec8876863a8e4bafb221c5591a298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OceanScene Variant.prefab using Guid(b34ec8876863a8e4bafb221c5591a298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7364919f35da38c5884589f55e28c2e0') in 0.0268081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 675
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain_0_0-20200119-162645.asset
+  artifactKey: Guid(27283af8234de9548aaacecf771d413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain_0_0-20200119-162645.asset using Guid(27283af8234de9548aaacecf771d413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0e36569b89557192c141dfb93a54fea4') in 0.1906448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain_0_0-20191231-121457.asset
+  artifactKey: Guid(53eedf20a2102c04caad18006562b3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain_0_0-20191231-121457.asset using Guid(53eedf20a2102c04caad18006562b3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '45ea7c6a29be1c4064c3bb5fdfbf76a1') in 0.2282583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.177292 seconds.
+  path: Assets/Gizmos/gui_icon_buoy.psd
+  artifactKey: Guid(b059d98f74e159b44b9718940f8fba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/gui_icon_buoy.psd using Guid(b059d98f74e159b44b9718940f8fba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '630c243c57685766e2da93ee015461e8') in 0.0191751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Gizmos/gui_icon_shore.psd
+  artifactKey: Guid(d2561a751f4555940b282caad528d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/gui_icon_shore.psd using Guid(d2561a751f4555940b282caad528d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7d410ab3da5a04cf1b39e26bff0a7f97') in 0.0129314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369138 seconds.
+  path: Assets/PathPlanning/FlyCam.prefab
+  artifactKey: Guid(d4f7d553fba506c4c8788a536a6407da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/FlyCam.prefab using Guid(d4f7d553fba506c4c8788a536a6407da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '73d1c4f1f146969b25b0cd43e64c4327') in 0.0543756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.765304 seconds.
+  path: Assets/PathPlanning/Scenes
+  artifactKey: Guid(06d41001716657d429f66c4fd5898692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Scenes using Guid(06d41001716657d429f66c4fd5898692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f7843dba57ea1f8d54d4240d03bc0311') in 0.0006176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.278688 seconds.
+  path: Assets/PathPlanning/Scenes/OSN.unity
+  artifactKey: Guid(6073c5da20a1331488bc508844a897f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Scenes/OSN.unity using Guid(6073c5da20a1331488bc508844a897f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1cd1275f8474dca6836405e20135fc9f') in 0.0006167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.851493 seconds.
+  path: Assets/ML-Agents/Examples
+  artifactKey: Guid(6584f096f53dc43eeb32803b91f36c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples using Guid(6584f096f53dc43eeb32803b91f36c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd304a8b7c600ddb32208c27cb47ef361') in 0.0005444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062776 seconds.
+  path: Assets/ML-Agents/Examples/GridFoodCollector.onnx
+  artifactKey: Guid(49be8866460a44d34b25fe7a67208eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/GridFoodCollector.onnx using Guid(49be8866460a44d34b25fe7a67208eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'fb6b40fbf7cd905a077b6ecac64f7398') in 0.0448913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928739 seconds.
+  path: Assets/ML-Agents/Examples/3DBall
+  artifactKey: Guid(f8097eaa1623c4a8ab4eff559e20fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/3DBall using Guid(f8097eaa1623c4a8ab4eff559e20fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '45cdfd74a36e44d3c6e618bbfb656a78') in 0.0005362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2549 unused Assets / (56.3 MB). Loaded Objects now: 2881.
+Memory consumption went from 213.7 MB to 157.4 MB.
+Total: 11.867900 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.088700 ms MarkObjects: 4.230000 ms  DeleteObjects: 7.348500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.130311 seconds.
+  path: Assets/ML-Agents/TestScenes/TestCompressedGrid
+  artifactKey: Guid(b97601ee748f74c10ae084cdea824aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/TestScenes/TestCompressedGrid using Guid(b97601ee748f74c10ae084cdea824aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '571771b6f483c338fc31be4cac97ed9f') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.829869 seconds.
+  path: Assets/ML-Agents/TestScenes/TestCompressedTexture/Texture.png
+  artifactKey: Guid(eeba1f6a35c72450894cf4f4cb516004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/TestScenes/TestCompressedTexture/Texture.png using Guid(eeba1f6a35c72450894cf4f4cb516004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bfc6daae88d1373fdc797ba1ea3be64e') in 0.0165336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2545 unused Assets / (56.0 MB). Loaded Objects now: 2880.
+Memory consumption went from 213.4 MB to 157.4 MB.
+Total: 12.871500 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.110600 ms MarkObjects: 4.604500 ms  DeleteObjects: 7.873000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2542 unused Assets / (56.0 MB). Loaded Objects now: 2877.
+Memory consumption went from 213.3 MB to 157.4 MB.
+Total: 12.042100 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.085300 ms MarkObjects: 3.752000 ms  DeleteObjects: 8.011600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.784167 seconds.
+  path: Assets/Procedural Worlds/Gaia
+  artifactKey: Guid(f11a64d74c9be18468470c11efdff5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Gaia using Guid(f11a64d74c9be18468470c11efdff5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '171e9435dc0be81cfedce894a93fdd5b') in 0.0010654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2083 unused Assets / (36.2 MB). Loaded Objects now: 2480.
+Memory consumption went from 178.9 MB to 142.7 MB.
+Total: 10.164700 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.074900 ms MarkObjects: 3.854400 ms  DeleteObjects: 6.063100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Crest/Crest/Scripts/LodData/RegisterLodDataInput.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2542 unused Assets / (56.0 MB). Loaded Objects now: 2877.
+Memory consumption went from 213.3 MB to 157.4 MB.
+Total: 16.304900 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.089800 ms MarkObjects: 5.630000 ms  DeleteObjects: 10.371800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 166.082811 seconds.
+  path: Assets/PathPlanning/Scenes/Backup
+  artifactKey: Guid(77ab71fc8acda8f4bb338455c73a16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Scenes/Backup using Guid(77ab71fc8acda8f4bb338455c73a16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9f92f563448633a6d93c9f15d4af1da1') in 0.0009464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.979882 seconds.
+  path: Assets/PathPlanning/Materials/480139269a9ece93089b075190ea78b.mat
+  artifactKey: Guid(0cc5b5d9cd023aa4da88e9df4b636324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Materials/480139269a9ece93089b075190ea78b.mat using Guid(0cc5b5d9cd023aa4da88e9df4b636324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8fa365d0cbea22d82a1602611d706e88') in 0.1790477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.459158 seconds.
+  path: Assets/PathPlanning/Materials/Body.mat
+  artifactKey: Guid(efd27986142f5e347979152a87bb8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Materials/Body.mat using Guid(efd27986142f5e347979152a87bb8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '688e157ab831deafd9af7f71e6d4418f') in 0.1274362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PathPlanning/Materials/RN.mat
+  artifactKey: Guid(d28926953580bbc4bb24a643d811fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Materials/RN.mat using Guid(d28926953580bbc4bb24a643d811fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3ce57742ef54719c8b1e995110d62b86') in 0.0189338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PathPlanning/Models/Tow_Fire1.fbx
+  artifactKey: Guid(c15206e4f68920d44be26aec15740879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Models/Tow_Fire1.fbx using Guid(c15206e4f68920d44be26aec15740879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cefec41f69b5995798ca4fbc6ca14830') in 0.0614672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PathPlanning/Materials/Propeller.mat
+  artifactKey: Guid(cd5c9213dbe160c4ba032adb6707ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Materials/Propeller.mat using Guid(cd5c9213dbe160c4ba032adb6707ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ac458a97d171829d276314deeced5d63') in 0.0184072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/PathPlanning/Materials/nonactivated.mat
+  artifactKey: Guid(65247c123260bdb4fbc901496d3c3541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Materials/nonactivated.mat using Guid(65247c123260bdb4fbc901496d3c3541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '73e80a13c072ef140d568d85c5bfcd2a') in 0.0166628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/PathPlanning/Models/Tow_Radar1.fbx
+  artifactKey: Guid(f9ea7ef128b57f8459bdba593b69a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Models/Tow_Radar1.fbx using Guid(f9ea7ef128b57f8459bdba593b69a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'ac0986afd91fae5ded44cca97978aef7') in 0.11322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844259 seconds.
+  path: Assets/PathPlanning/Prefabs/Academy.prefab
+  artifactKey: Guid(cb85725cd66853f47bdf778fb45e9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/Academy.prefab using Guid(cb85725cd66853f47bdf778fb45e9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '11431afcd7533230b947c94cf36e9e5c') in 0.0023215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PathPlanning/Prefabs/Circles.prefab
+  artifactKey: Guid(efea638630ba7a04596ed4feb547c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/Circles.prefab using Guid(efea638630ba7a04596ed4feb547c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a18e2e7747a52bda0a7bae0f6ef8f09a') in 0.0179042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 543
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PathPlanning/Prefabs/RLPLArea.prefab
+  artifactKey: Guid(58fcd1700dddf1a459e4c8bceb894b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/RLPLArea.prefab using Guid(58fcd1700dddf1a459e4c8bceb894b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cea6cb0d4052333999b1d15dcfbabd5f') in 0.3438877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17017
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PathPlanning/Prefabs/OceanBuoyBasic.prefab
+  artifactKey: Guid(8bcb1e4a6c7d9c447b52f0a78802d1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/OceanBuoyBasic.prefab using Guid(8bcb1e4a6c7d9c447b52f0a78802d1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'aa0b4298287449e80a45368d2662552d') in 0.0028543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PathPlanning/Prefabs/cell (1).prefab
+  artifactKey: Guid(7f7c9e186bc099b44a4df1239e4426a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/cell (1).prefab using Guid(7f7c9e186bc099b44a4df1239e4426a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a5183db7bff90c3164e8f35d223a77d4') in 0.0164717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PathPlanning/Prefabs/LMAT.prefab
+  artifactKey: Guid(7139d0324e16f3c4a8717bb9cdbcc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Prefabs/LMAT.prefab using Guid(7139d0324e16f3c4a8717bb9cdbcc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b2a86759301447b9de45fde92572242a') in 0.0193648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 531
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.120937 seconds.
+  path: Assets/PathPlanning/Textures/480139269a9ece93089b075190ea78b.png
+  artifactKey: Guid(a42f45d23f2b394469847db876a23911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Textures/480139269a9ece93089b075190ea78b.png using Guid(a42f45d23f2b394469847db876a23911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '701552fd7f04485b8111eccc34339440') in 0.0353779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PathPlanning/Textures/Tow_fire_acid_glow.tif
+  artifactKey: Guid(86b1b616162f66b429b3bd5ed4e2e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Textures/Tow_fire_acid_glow.tif using Guid(86b1b616162f66b429b3bd5ed4e2e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f7d47776bf3f96151813032b9f652cee') in 0.017545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PathPlanning/Textures/Tow_Radars_glow.tif
+  artifactKey: Guid(f4aa93b052a5dbd42b60c1aee8de1150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/Textures/Tow_Radars_glow.tif using Guid(f4aa93b052a5dbd42b60c1aee8de1150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd3a7e0195a324b43952e543074bdc9b7') in 0.0164744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.609235 seconds.
+  path: Assets/PathPlanning/TFModels/PathPlanning-1715961.onnx
+  artifactKey: Guid(2e96bb56d39d4794d9d51facbc841e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathPlanning/TFModels/PathPlanning-1715961.onnx using Guid(2e96bb56d39d4794d9d51facbc841e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd97b5e4ae86bb862176dcbf3dfaf6cd5') in 0.0239783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
